@@ -1,5 +1,5 @@
 meta:
-  title: Redocly Training
+  title: NFTPort Developers
   description: The best API documentation generator ever.
   siteUrl: https://developer-portal-starter.redoc.ly
   keywords: redocly developer portal, api portal starter, api reference docs
@@ -27,12 +27,15 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
-  - label: Training exercises
+  - label: NFTPort Docs
     page: developer-portal/index.md
 
-  - label: External docs
+  - label: Redocly external docs
     icon: ./images/redocly-icon-white.png
     href: https://redoc.ly/docs/developer-portal/introduction/
+
+  - label: Sign-in
+    page: developer-portal/index.md
 
   - search: true
 
