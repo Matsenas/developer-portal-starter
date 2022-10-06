@@ -1,7 +1,7 @@
 training:
   - page: developer-portal/index.md
   - group: Training exercises
-    expanded: true
+    expanded: false
     pages:
       - label: Setup
         page: developer-portal/setup.md
@@ -43,29 +43,13 @@ training:
     pages:
       - page: openapi/reference.page.yaml/*
 
-  - group: Admin
+docs:
+  - page: docs/index.mdx
+  - group: 'All NFTPort APIs'
     expanded: true
     pages:
-      - group: Routine
-        expanded: true
-        pages:
-          - group: Rock
-            expanded: true
-            pages:
-              - group: Paper
-                expanded: true
-                pages:
-                  - group: Scissors
-                    expanded: true
-                    pages:
-                      - group: 1-2-3
-                        expanded: true
-                        pages:
-                          - group: Go
-                            expanded: true
-                            pages:
-                              - label: Upgrading
-                                # page: developer-portal/upgrade.md
+      - page: openapi/nftport.json/*
+
 alternative:
   - page: developer-portal/sidebar-alternative.md
     label: Alternative sidebar example

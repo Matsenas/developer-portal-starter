@@ -1,0 +1,21 @@
+/* Details drawer */
+
+.details {
+  position: absolute;
+  background-color: white;
+  border: 1px solid var(--bs-chart-gray-300);
+  transition: all 250ms ease-out;
+  height: 100%;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  overflow-y: auto;
+}
+
+.details_open {
+  transform: translateX(0);
+}
+
+.details_closed {
+  transform: translateX(100%);
+}

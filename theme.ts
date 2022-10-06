@@ -15,7 +15,7 @@ export const theme = {
   colors: {
     // tonalOffset: 0.2,
     primary: {
-      main: '#227a88',
+      main: '#f5f8fb',
       // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
       // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
       // contrastText: ({ colors }) => readableColor(colors.primary.main),
@@ -45,7 +45,7 @@ export const theme = {
     //   contrastText: ({ colors }) => readableColor(colors.info.main),
     // },
     text: {
-      primary: '#424242',
+      primary: '#262626',
       // secondary: '#4e566d',
     },
     // border: {
@@ -93,7 +93,7 @@ export const theme = {
   },
 
   sidebar: {
-    backgroundColor: '#fafafa',
+    backgroundColor: '#f5f8fb',
     width: '260px',
   },
   // tocPanel: {
@@ -104,37 +104,37 @@ export const theme = {
     fontSize: '16px',
     lineHeight: '1.5em',
     fontWeightRegular: '400',
-    fontWeightBold: '600',
+    fontWeightBold: '700',
     fontWeightLight: '300',
-    fontFamily: '"Source Sans Pro", sans-serif',
+    fontFamily: '"DM Sans", sans-serif',
     headings: {
-      fontFamily: '"Source Sans Pro", sans-serif',
-      fontWeight: '600',
+      fontFamily: '"DM Sans", sans-serif',
+      fontWeight: '700',
     },
-    // heading1: {
-    //   fontSize: '1.85714em',
-    //   fontWeight: '600',
-    //   fontFamily: ({ typography }) => typography.headings.fontFamily,
-    //   lineHeight: ({ typography }) => typography.lineHeight,
-    //   color: ({ colors }) => colors.primary.main,
-    //   capitalize: true,
-    // },
-    // heading2: {
-    //   fontSize: '1.57143em',
-    //   fontWeight: '600',
-    //   color: ({ colors }) => colors.text.primary,
-    //   fontFamily: ({ typography }) => typography.headings.fontFamily,
-    //   lineHeight: ({ typography }) => typography.lineHeight,
-    //   capitalize: false,
-    // },
-    // heading3: {
-    //   fontSize: '1.27em',
-    //   fontWeight: '600',
-    //   color: ({ colors }) => colors.text.primary,
-    //   fontFamily: ({ typography }) => typography.headings.fontFamily,
-    //   lineHeight: ({ typography }) => typography.lineHeight,
-    //   capitalize: false,
-    // },
+    heading1: {
+      fontSize: '1.85714em',
+      fontWeight: '700',
+      fontFamily: ({ typography }) => typography.headings.fontFamily,
+      lineHeight: ({ typography }) => typography.lineHeight,
+      color: ({ colors }) => colors.text.primary,
+      capitalize: true,
+    },
+    heading2: {
+      fontSize: '1.57143em',
+      fontWeight: '500',
+      color: ({ colors }) => colors.text.primary,
+      fontFamily: ({ typography }) => typography.headings.fontFamily,
+      lineHeight: ({ typography }) => typography.lineHeight,
+      capitalize: false,
+    },
+    heading3: {
+      fontSize: '1.27em',
+      fontWeight: '500',
+      color: ({ colors }) => colors.text.primary,
+      fontFamily: ({ typography }) => typography.headings.fontFamily,
+      lineHeight: ({ typography }) => typography.lineHeight,
+      capitalize: false,
+    },
     // heading4: {
     // // ...
     // },
@@ -153,7 +153,7 @@ export const theme = {
       wrap: false,
     },
     links: {
-      color: ({ colors }) => colors.primary.main,
+      color: '#003BFF',
       visited: ({ typography }) => typography.links.color,
       hover: ({ typography }) => lighten(0.2, typography.links.color),
     },

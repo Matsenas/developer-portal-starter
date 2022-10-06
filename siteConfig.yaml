@@ -1,7 +1,7 @@
 meta:
   title: NFTPort Developers
   description: The best API documentation generator ever.
-  siteUrl: https://developer-portal-starter.redoc.ly
+  siteUrl: https://nftportdev.redoc.ly
   keywords: redocly developer portal, api portal starter, api reference docs
   lang: en-US
 linkChecker:
@@ -9,14 +9,15 @@ linkChecker:
   options:
     CheckExternal: false
 logo:
-  image: ./images/logo.png
-  altText: Redocly Training
+  image: ./images/nftport.png
+  altText: NFTPort logo
 toc:
   enable: true
 oasDefinitions:
   petstore: ./openapi/petstore.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
+  - https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
   - https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700&display=swap
 #analytics:
@@ -27,20 +28,23 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
-  - label: NFTPort Docs
-    page: developer-portal/index.md
+  - label: Documentation
+    page: docs/index.mdx
 
-  - label: Redocly external docs
-    icon: ./images/redocly-icon-white.png
-    href: https://redoc.ly/docs/developer-portal/introduction/
+  - label: Dashboard
+    page: dashboard/index.mdx
+
+# - label: Redocly external docs
+#   icon: ./images/redocly-icon-white.png
+#   href: https://redoc.ly/docs/developer-portal/introduction/
 
   - label: Sign-in
-    page: developer-portal/index.md
+    page: signin/index.md
 
-  - search: true
+  - search: false
 
 footer:
-  copyrightText: Copyright © Redocly 2019-2021. All right reserved.
+  copyrightText: Copyright © NFTPort 2022.
   columns:
     - group: Legal
       items:
